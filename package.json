@@ -4,12 +4,16 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "build": "turbo build",
+    "start": "turbo start",
+    "dev": "turbo dev",
     "format": "biome check .",
     "format:apply": "biome check --apply-unsafe ."
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.3",
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "turbo": "^1.13.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
