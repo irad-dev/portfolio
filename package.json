@@ -19,8 +19,7 @@
     "typescript": "^5.0.0"
   },
   "workspaces": [
-    "infrastructure/*",
-    "frontend/*",
+    "apps/*",
     "packages/*"
   ]
 }
