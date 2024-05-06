@@ -3,6 +3,10 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "format": "biome check .",
+    "format:apply": "biome check --apply-unsafe ."
+  },
   "devDependencies": {
     "@biomejs/biome": "1.7.3",
     "@types/bun": "latest"
