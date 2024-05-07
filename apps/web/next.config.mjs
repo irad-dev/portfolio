@@ -2,7 +2,8 @@ const path = require("path");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "standalone",
+  output: "export",
+  distDir: "dist",
   reactStrictMode: true,
   compiler: { removeConsole: { exclude: ["error", "warn", "info"] } },
   experimental: {
