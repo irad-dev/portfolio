@@ -1,10 +1,10 @@
+import type { Metadata } from "next";
 import {
   Anonymous_Pro,
   Kiwi_Maru,
-  Zen_Maru_Gothic,
   Zen_Kurenaido,
+  Zen_Maru_Gothic,
 } from "next/font/google";
-import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {

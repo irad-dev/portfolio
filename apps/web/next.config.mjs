@@ -1,14 +1,14 @@
-const path = require("path");
+const path = require('node:path');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
-  distDir: "dist",
+  output: 'export',
+  distDir: 'dist',
   reactStrictMode: true,
-  compiler: { removeConsole: { exclude: ["error", "warn", "info"] } },
+  compiler: { removeConsole: { exclude: ['error', 'warn', 'info'] } },
   experimental: {
     // https://nextjs.org/docs/pages/api-reference/next-config-js/output#caveats
-    outputFileTracingRoot: path.join(__dirname, "../../"),
+    outputFileTracingRoot: path.join(__dirname, '../../'),
   },
 };
 
