@@ -9,11 +9,13 @@
     "dev": "turbo dev",
     "format": "biome check .",
     "format:apply": "biome check --apply-unsafe .",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@biomejs/biome": "1.7.3",
     "@types/bun": "latest",
+    "husky": "^9.0.11",
     "turbo": "^1.13.3"
   },
   "peerDependencies": {
