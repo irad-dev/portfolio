@@ -8,5 +8,29 @@
     "rules": {
       "recommended": true
     }
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
+  "javascript": {
+    "parser": {
+      "unsafeParameterDecoratorsEnabled": true
+    },
+    "formatter": {
+      "arrowParentheses": "always",
+      "semicolons": "always",
+      "quoteStyle": "single"
+    }
+  },
+  "files": {
+    "include": ["**/*.ts", "**/*.tsx", "**/*.js", "**/*.mjs"],
+    "ignore": [
+      "**/node_modules/**",
+      "**/.turbo/**",
+      "**/.next/**",
+      "**/dist/**"
+    ]
   }
 }
