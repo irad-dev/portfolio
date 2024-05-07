@@ -53,7 +53,7 @@ export default function RootLayout({
   return (
     <html
       lang="ja"
-      className={`${anonymousPro.variable} ${kiwiMaru.variable} ${zenMaruGothic.variable} ${zenKurenaido.variable} ${harenosora.variable}`}
+      className={`${anonymousPro.variable} ${kiwiMaru.variable} ${zenMaruGothic.variable} ${zenKurenaido.variable}`}
     >
       <body>{children}</body>
     </html>
