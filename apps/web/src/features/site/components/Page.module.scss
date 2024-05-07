@@ -1,0 +1,30 @@
+.main {
+  position: relative;
+  min-height: 100svh;
+}
+
+.animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100dvh;
+  height: 100svh;
+  height: 100vh;
+  background-color: var(--color-background-default);
+  opacity: 1;
+  transition: opacity 5s;
+  
+  &.animated {
+    opacity: 0;
+  }
+}
+
+.content {
+  opacity: 0;
+  transition: opacity 5s;
+
+  &.animated {
+    opacity: 1;
+  }
+}

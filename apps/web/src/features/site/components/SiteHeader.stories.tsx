@@ -1,7 +1,7 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { FirstView } from '~/features/site/components/FirstView';
+import { SiteHeader } from '~/features/site/components/SiteHeader';
 
-const Component = FirstView;
+const Component = SiteHeader;
 
 type Story = StoryObj<typeof Component>;
 type StoryMeta = Meta<typeof Component>;

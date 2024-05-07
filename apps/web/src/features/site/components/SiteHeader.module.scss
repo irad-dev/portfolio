@@ -1,0 +1,30 @@
+.header {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 36px;
+}
+
+.logo {
+  user-select: none;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.item {
+  color: var(--color-text-default);
+  letter-spacing: 2.5px;
+  padding: 8px 16px;
+
+  &:focus-visible {
+    color: var(--color-text-emphasis);
+    font-weight: bold;
+    outline: unset;
+    outline: 3px solid var(--color-border-emphasis);
+  }
+}

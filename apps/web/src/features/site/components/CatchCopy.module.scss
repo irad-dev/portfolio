@@ -1,0 +1,31 @@
+.catch-copy {
+  width: 840px;
+  font-family: var(--font-zen-kurenaido);
+  font-size: 28px;
+  letter-spacing: 24px;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  
+  &.animation {
+    border-right: 5px solid #000;
+    animation: typing 2.5s steps(16), blink .3s step-end infinite alternate;
+  }
+}
+
+.highlight {
+  font-family: var(--font-zen-kurenaido);
+  color: var(--color-text-primary);
+}
+
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
